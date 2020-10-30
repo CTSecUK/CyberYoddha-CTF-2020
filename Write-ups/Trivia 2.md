@@ -1,5 +1,6 @@
 # Trivia 2
-150
+
+![Points](http://img.shields.io/badge/Points-150-brightgreen?style=for-the-badge)
 
 > Who’s operating system was IBM going to buy before MS-DOS? {no wrapper needed}
 
