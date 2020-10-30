@@ -1,8 +1,9 @@
 # Details
 
+![Points](http://img.shields.io/badge/Points-10-brightgreen?style=for-the-badge)
+
 > Join our discord! Use Carl-bot's flag command to capture this flag!
->
->- YoshiBoi#2008
+
 
 
 Over in discord, if we look in the "**guide**" channel we can see that commands to Carl-Bot need to be prefixed with a "**?**" 
