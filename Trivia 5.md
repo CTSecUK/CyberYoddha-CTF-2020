@@ -1,9 +1,7 @@
 # Trivia 5
 
-50
+![Points](http://img.shields.io/badge/Points-50-brightgreen?style=for-the-badge)
 
 > What is a social engineering attack in which someone watches someone else enter private information such as a password called?{no wrapper needed}
-> 
-> - Haskell#1426
 
-## shoulder surfing
+## Answer: shoulder surfing
