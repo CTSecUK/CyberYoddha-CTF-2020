@@ -6,7 +6,7 @@
 
 ![Details](https://github.com/CTSecUK/CyberYoddha-CTF-2020/blob/main/images/password_2_details.png)
 
-If we downlaod and exmain the python script we can see the following;
+If we download and exmaine the python script we can see the following;
 
 ```python
 import random
@@ -33,9 +33,9 @@ else:
   print("PASSWORD DENIED\n")
 ```
 
-Again, like teh previous challendge, we can see the flag is locate in the `checkPassword()` funtion, but is all jumbled up.
+Again (like in the previous challenge), we can see the flag is locate in the `checkPassword()` funtion, but is all jumbled up.
 
-This time to decrypt we'll just add a few lines of new code to the script;
+This time to decrypt we'll add a few lines of code to the script;
 
 ```python
 decryptedPass = ""
@@ -87,10 +87,11 @@ else:
 
 If we run this script 
 ```
-[jaxigt@MBA password_1]$ sort data.txt | grep -Po '.(?=.{1}$)' | awk '{print}' ORS=''
-CYCTF{pu771ng_th3_ch@r@ct3r$_t0g3th3r_1337}
+[jaxigt@MBA password_2]$ python password2.py 
+CYCTF{ju$t_@_l177l3_scr@mbl3_f0r_y0u_t0_d3c0d3}
+PASSWORD DENIED
 ```
 
 And there's our Flag;
 
-## CYCTF{pu771ng_th3_ch@r@ct3r$_t0g3th3r_1337}
+## CYCTF{ju$t_@_l177l3_scr@mbl3_f0r_y0u_t0_d3c0d3}
