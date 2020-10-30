@@ -1,9 +1,10 @@
 # Look Closely
 
+![Points](http://img.shields.io/badge/Points-50-brightgreen?style=for-the-badge)
 
 ## Details
 
-![Challenge Details]()
+![Challenge Details](https://github.com/CTSecUK/CyberYoddha-CTF-2020/blob/main/images/look_closely_details.png)
 
 Heading to the website we just see a page full of "**Lorem Ipsum**" generated text.
 
