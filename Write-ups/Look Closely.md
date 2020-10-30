@@ -134,16 +134,17 @@ Viewing the source of the page we see the below;
 </html>
 ```
 
-Most of this text is made up of the same reepating string..
-If we copy and paste this text into a text editor and then Select one line
+Most of this text is made up of the same repating string..
+
+If we copy and paste this text into a text editor and then select just one line;
 
 ```
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 ```
 
-We can replace it with nothing!
+ and can replace it with nothing!
 
-Then we are ;left with the following 
+We are then left with the following ;
 
 ```
 <!DOCTYPE html>
@@ -158,7 +159,8 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 	</body>
 </html>
 ```
-And on the last line we can see the flag;
+
+On the last line of thois shorter output we can see the flag;
 
 ## CYCTF{1nSp3t_eL3M3nt?}
 
