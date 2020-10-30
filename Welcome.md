@@ -7,11 +7,11 @@ Join our discord! Use Carl-bot's flag command to capture this flag!
 
 Over in discord, if we look in the "**guide**" channel we can see that commands to Carl-Bot need to be prefixed with a "**?**" 
 
-![flag]()
+![Guide](https://github.com/CTSecUK/CyberYoddha-CTF-2020/blob/main/images/welcome_guide.png)
 
 So we send the we send the command ```?flag``` in the **bot-commands** channel and get a direct message reponse from Carl-bot;
 
-![flag]()
+![flag](https://github.com/CTSecUK/CyberYoddha-CTF-2020/blob/main/images/welcome_flag.png)
 
 So the lfag for this challenge is;
 
