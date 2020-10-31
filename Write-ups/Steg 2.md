@@ -8,7 +8,7 @@ Next we open in `stegsolve`
 
 As we browse through the varyious colour planes we see the below data hidden in `Red Plane 1`
 
-[solution](https://github.com/CTSecUK/CyberYoddha-CTF-2020/blob/main/images/steg2_red_plane1.png)
+![solution](https://github.com/CTSecUK/CyberYoddha-CTF-2020/blob/main/images/steg2_red_plane1.png)
 
 So there we have our key;
 
