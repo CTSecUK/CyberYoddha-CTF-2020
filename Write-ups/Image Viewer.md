@@ -2,6 +2,8 @@
 
 We download the image file.
 
+![image](https://github.com/CTSecUK/CyberYoddha-CTF-2020/blob/main/images/image_viewer_shoob_2.jpeg)
+
 The details on the challenge say; 
 
 > "My friend took this image in a cool place"
