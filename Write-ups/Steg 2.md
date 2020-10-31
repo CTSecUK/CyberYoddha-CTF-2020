@@ -1,12 +1,14 @@
 # Steg 2
 
-We download and look at the image
+![Category](http://img.shields.io/badge/Category-Forensics-orange?style=for-the-badge) ![Points](http://img.shields.io/badge/Points-300-brightgreen?style=for-the-badge)
+
+We download and look at the image listed in teh challenge dexription which can be seen below;
 
 ![image](https://github.com/CTSecUK/CyberYoddha-CTF-2020/blob/main/images/steg2_image.png)
 
 Next we open in `stegsolve`
 
-As we browse through the varyious colour planes we see the below data hidden in `Red Plane 1`
+As we browse through the various colour planes we see the below data hidden in `Red Plane 1`.
 
 ![solution](https://github.com/CTSecUK/CyberYoddha-CTF-2020/blob/main/images/steg2_red_plane1.png)
 

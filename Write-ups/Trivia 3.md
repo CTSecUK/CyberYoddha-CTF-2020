@@ -1,6 +1,6 @@
 # Trivia 3
 
-![Points](http://img.shields.io/badge/Points-100-brightgreen?style=for-the-badge)
+![Category](http://img.shields.io/badge/Category-Trivia-orange?style=for-the-badge) ![Points](http://img.shields.io/badge/Points-100-brightgreen?style=for-the-badge)
 
 > Which company invented the original hadoop software?{no wrapper needed}
 

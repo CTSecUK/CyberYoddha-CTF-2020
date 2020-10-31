@@ -1,5 +1,7 @@
 # Lorem Ipsum
 
+![Category](http://img.shields.io/badge/Category-Misc-orange?style=for-the-badge) ![Points](http://img.shields.io/badge/Points-125-brightgreen?style=for-the-badge)
+
 We are given the following string of text, which we save as `file1.txt`;
 
 ```

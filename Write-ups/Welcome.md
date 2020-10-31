@@ -1,6 +1,6 @@
 # Details
 
-![Points](http://img.shields.io/badge/Points-10-brightgreen?style=for-the-badge)
+![Category](http://img.shields.io/badge/Category-Welcome-orange?style=for-the-badge) ![Points](http://img.shields.io/badge/Points-10-brightgreen?style=for-the-badge)
 
 > Join our discord! Use Carl-bot's flag command to capture this flag!
 
@@ -14,7 +14,7 @@ So we send the we send the command ```?flag``` in the **bot-commands** channel a
 
 ![flag](https://github.com/CTSecUK/CyberYoddha-CTF-2020/blob/main/images/welcome_flag.png)
 
-So the lfag for this challenge is;
+So the flag for this challenge is;
 
 ## CYCTF{W3lc0m3_t0_Cyb3rY0ddh@_CTF_2020!}
 

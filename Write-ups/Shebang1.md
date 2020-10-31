@@ -1,6 +1,8 @@
 # Shebang1
 
-We connect to the shell using this command `ssh -p 1337 shebang1@cyberyoddha.baycyber.net` and the fla from the Shebang0 challenge as the password.
+![Category](http://img.shields.io/badge/Category-Shebang-orange?style=for-the-badge) ![Points](http://img.shields.io/badge/Points-125-brightgreen?style=for-the-badge)
+
+We connect to the shell again using this command `ssh -p 1337 shebang1@cyberyoddha.baycyber.net` and the flag from the Shebang0 challenge as the password.
 
 Once connected we run and ls to see what's in our working dircetory;
 
@@ -14,7 +16,7 @@ drwxr-xr-x 1 root     root   4096 Oct 30 20:47 ..
 
 As you can see the flag is right there, and although the file is owend by root we have read access to it.
 
-But you may also notice the file size... its pretty large for a flag string!?!
+But you may also notice the file size... it's pretty large for a flag string!?!
 
 If you just try to cat the file to the screen it will spit out endless lines of text to the console.
 

@@ -1,6 +1,6 @@
 # Disallow
 
-![Category](http://img.shields.io/badge/Category-Web_Exploitation-orange?style=for-the-badge) ![Points](http://img.shields.io/badge/Points-100-brightgreen?style=for-the-badge)
+![Category](http://img.shields.io/badge/Category-Web%20Exploitation-orange?style=for-the-badge) ![Points](http://img.shields.io/badge/Points-100-brightgreen?style=for-the-badge)
 
 ## Details
 

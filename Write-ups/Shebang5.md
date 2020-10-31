@@ -1,10 +1,16 @@
 # Shebang5
 
+![Category](http://img.shields.io/badge/Category-Shebang-orange?style=for-the-badge) ![Points](http://img.shields.io/badge/Points-250-brightgreen?style=for-the-badge)
+
+We connect to the shell using this command `ssh -p 1337 shebang5@cyberyoddha.baycyber.net` and the flag from the Shebang4 challenge as the password.
+
+There is a clue for this chelleneg in the description which reads;
+
 > "there is a very bad file on this Server. can yoU fInD it."
 
-Notice the capitalisation of U I & D in the above clue;
+Notice the capitalisation of `U` `I` & `D` in the above clue;
 
-That makes me think we're looking for a SUID
+That makes me think we're looking for a SUID binary.
 
 ```
 shebang5@fe2149a30ae1:~$ find / -path /sys -prune -o -path /proc -prune -o -perm /4000
@@ -46,7 +52,10 @@ find: '/root': Permission denied
 shebang5@fe2149a30ae1:~$ ls -al /var/cat
 ---s--x--x 1 shebang6 root 16992 Oct 14 20:51 /var/cat
 ```
-ok so "**shebang6**" is the owner of this file... now lets see if there are any files owened by 'shebang6';
+
+OK, so "**shebang6**" is the owner of this file... and it has the SUID bit set on it! 
+
+Now lets see if there are any files owened by 'shebang6';
 
 ```
 shebang5@fe2149a30ae1:~$ find / -path /sys -prune -o -path /proc -prune -o -user shebang6
@@ -71,7 +80,9 @@ find: '/home/shebang0': Permission denied
 find: '/root': Permission denied
 ```
 
-`/etc/passwords/shebang6` <---- that's got to be something?!
+We can see from the above output the file `/etc/passwords/shebang6`. That's got to be something?!
+
+running the /var/cat binary against the file we get the following;
 
 ```
 shebang5@fe2149a30ae1:~$ /var/cat /etc/passwords/shebang6 

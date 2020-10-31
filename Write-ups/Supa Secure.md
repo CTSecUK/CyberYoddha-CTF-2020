@@ -1,7 +1,8 @@
 # Supa Secure
 
+![Category](http://img.shields.io/badge/Category-Password%20Cracking-orange?style=for-the-badge) ![Points](http://img.shields.io/badge/Points-225-brightgreen?style=for-the-badge)
 
-We're given a string `19d14c463333a41a1538dbf9eb76aadf`.
+In the challenge details we are We're given a string `19d14c463333a41a1538dbf9eb76aadf`.
 
 I run it through `hash-identifier` and it detects it as a possible MD5
 

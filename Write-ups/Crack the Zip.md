@@ -1,5 +1,7 @@
 # Crack the Zip
 
+![Category](http://img.shields.io/badge/Category-Password%20Cracking-orange?style=for-the-badge) ![Points](http://img.shields.io/badge/Points-200-brightgreen?style=for-the-badge)
+
 ```
 [jaxigt@MBA crack_the_zip]$ zip2john flag.zip 
 ver 1.0 efh 5455 efh 7875 flag.zip/flag.txt PKZIP Encr: 2b chk, TS_chk, cmplen=42, decmplen=30, crc=6DB4BCF0

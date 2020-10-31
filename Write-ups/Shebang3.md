@@ -1,8 +1,10 @@
 # Shebang3
 
-We connect to the shell using this command `ssh -p 1337 shebang1@cyberyoddha.baycyber.net` and the flag from the Shebang2 challenge as the password.
+![Category](http://img.shields.io/badge/Category-Shebang-orange?style=for-the-badge) ![Points](http://img.shields.io/badge/Points-150-brightgreen?style=for-the-badge)
 
-Once connected we run and ls to see what's in our working dircetory;
+We connect to the shell using this command `ssh -p 1337 shebang3@cyberyoddha.baycyber.net` and the flag from the Shebang2 challenge as the password.
+
+Once connected we ruse the `ls -al` command, to see what's in our working dircetory;
 
 ```
 $ ls -al
@@ -13,15 +15,17 @@ drwxr-xr-x 1 root     root      4096 Oct 30 20:47 ..
 -rw-r--r-- 1 root     root 139922225 Oct 14 19:11 file2.txt
 ```
 
-Again, like in previous chalenges,  notice the file size... it's too large to just be a flag string and to large to output straight to the screen.
+Again (like in previous chalenges), we  notice the file sizes. They're too large to just be a flag string and to large to output straight to the screen.
 
 We can try again to recursively grep for the flag using `$ grep -r "CYCTF"` but this yields no results.
 
-The description for this challenge however suggests that both files are the same.?
+The description for this challenge however suggests that both files are the same.? 
 
-We can see from the file size above atht this is not the case however!
+But we can see from the file size above that this is not the case!
 
-If we run `diff file.txt file2.txt` we still get a fairly long list of differences but it is readable. If get just the first 50 lines using the head command `diff file.txt file2.txt | head -n 50` you can see the below
+If we run `diff file.txt file2.txt` we still get a fairly long list of differences but it is readable. 
+
+If get just the first 50 lines however, using the head command `diff file.txt file2.txt | head -n 50` you can see the below
 
 ```
 $ diff file.txt file2.txt | head -n 50
@@ -77,6 +81,9 @@ $ diff file.txt file2.txt | head -n 50
 < �repod
 
 ```
+
+The first 40 differences make up the flag!
+
 We could manually copy out the characters or we can use linux to do it for us;
 
 ```

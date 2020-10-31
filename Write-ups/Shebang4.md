@@ -1,8 +1,12 @@
+# Shebang4
 
+![Category](http://img.shields.io/badge/Category-Shebang-orange?style=for-the-badge) ![Points](http://img.shields.io/badge/Points-200-brightgreen?style=for-the-badge)
 
+We connect to the shell using this command `ssh -p 1337 shebang4@cyberyoddha.baycyber.net` and the flag from the Shebang3 challenge as the password.
 
+running the `ls` command in our current directory shows us the file `flag.png`, but we cannot view the image from a shell!?
 
-`cat flag.png | base64`
+Instead we read the file into a base64 encoded string using `cat flag.png | base64`;
 
 ```
 iVBORw0KGgoAAAANSUhEUgAAAqUAAABfCAYAAADRTr5kAAABQ2lDQ1BJQ0MgUHJvZmlsZQAAKJFj
@@ -230,7 +234,6 @@ Back on my own PC I save the b64 output to a file called `flag.b64` and then use
 
 `cat flag.b64 | base64 -d > flag.png`
 
-
-The resulting image is;
+Viewing the resulting image we can seee the below flag;
 
 ![Flag](https://github.com/CTSecUK/CyberYoddha-CTF-2020/blob/main/images/shebang4_flag.png)

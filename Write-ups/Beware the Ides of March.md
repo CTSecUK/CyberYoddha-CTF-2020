@@ -1,6 +1,6 @@
 # Beware the Ides of March
 
-![Points](http://img.shields.io/badge/Points-50-brightgreen?style=for-the-badge)
+![Category](http://img.shields.io/badge/Category-Cryptography-orange?style=for-the-badge) ![Points](http://img.shields.io/badge/Points-50-brightgreen?style=for-the-badge)
 
 ## Details
 
