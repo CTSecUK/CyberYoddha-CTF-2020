@@ -1,4 +1,4 @@
-# What’s the password?
+# What’s the Password?
 
 We download the image and take a look at it;
 
@@ -6,7 +6,7 @@ We download the image and take a look at it;
 
 this along with the  title of the challenge seems like a pretty good clue
 
-Let's try extracting data from the image file using `steghide` with a password of sudo``
+Let's try extracting data from the image file using `steghide` with a password of `sudo`
 
 ```
 [jaxigt@MBA whats_the_password]$ steghide --extract -sf sudo.jpg 
