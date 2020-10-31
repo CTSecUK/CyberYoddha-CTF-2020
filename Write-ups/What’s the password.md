@@ -16,4 +16,4 @@ wrote extracted data to "steganopayload457819.txt".
 
 If we look at the contets of the file `steganopayload457819.txt` using the **cat** comand we see the flag: `CYCTF{U$3_sud0_t0_achi3v3_y0ur_dr3@m$!}
 
-## CYCTF{U$3_sud0_t0_achi3v3_y0ur_dr3@m$!
+## CYCTF{U$3_sud0_t0_achi3v3_y0ur_dr3@m$!}
