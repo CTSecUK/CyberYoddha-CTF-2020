@@ -2,7 +2,9 @@
 
 We download the image file.
 
-Nothing of interst from`exiftool`.
+![image](https://github.com/CTSecUK/CyberYoddha-CTF-2020/blob/main/images/the_row_beneath_plan.png)
+
+looks like there's nothing of interst from `exiftool`.
 
 A quick scan through the image with `stegsolve` also displays nothing obvious;
 
