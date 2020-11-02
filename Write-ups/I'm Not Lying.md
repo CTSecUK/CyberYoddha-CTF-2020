@@ -21,7 +21,6 @@ If we start decoding the first few dots and dashes we can see taht this looks pr
 ![image](https://github.com/CTSecUK/CyberYoddha-CTF-2020/blob/main/images/im_not_lying_cyctf_morse.png)
 
 At this point we tried many methods of extracting the audio at the relevant frenquency and then running it through various tools to try and decode the morse code automatically, but none of these tools was able to cleanly and correctly determine the flag, so in the end one of our team manually decoded it using the visiaul spectogram output.
-![solution](https://github.com/CTSecUK/CyberYoddha-CTF-2020/blob/main/images/steg2_red_plane1.png)
 
 The result was `CYCTFTRU7HH1DD3NUND3RL!E`
 
