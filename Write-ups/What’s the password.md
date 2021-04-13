@@ -2,11 +2,11 @@
 
 ![Category](http://img.shields.io/badge/Category-Forensics-orange?style=for-the-badge) ![Points](http://img.shields.io/badge/Points-175-brightgreen?style=for-the-badge)
 
-We download and look at the image listed in teh challenge dexription which can be seen below;
+We download and look at the image listed in the challenge description which can be seen below;
 
 ![image](https://github.com/CTSecUK/CyberYoddha-CTF-2020/blob/main/images/whats_the_password_sudo.jpg)
 
-This along with the  title of the challenge seems like a pretty good clue as to what we might need to do!
+This along with the title of the challenge seems like a pretty good clue as to what we might need to do!
 
 We try extracting data from the image file using `steghide` with a password of `sudo`;
 
